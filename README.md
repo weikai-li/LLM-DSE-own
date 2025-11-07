@@ -43,7 +43,7 @@ python main.py --benchmark 3mm --folder ../data/pack1
 
 **A detailed explanation of environment setup**
 
-Running HLS evaluation requires two tools: Merlin and Vitis HLS. For this project, please download Vitis HLS version 2024.2. After installing Merlin and Vitis HLS, the following two files can help you setup the environment at every time you run. Please see the "TODO"s in these two files, which mark the places you need to modify to your own paths and commands.
+Running HLS evaluation requires two tools: Merlin and Vitis HLS. For this project, please download Vitis HLS version 2025.1. After installing Merlin and Vitis HLS, the following two files can help you setup the environment at every time you run. Please see the "TODO"s in these two files, which mark the places you need to modify to your own paths and commands.
 
 - merlin.sh: It starts the Merlin Docker image. Please see "TODO"s and instructions inside the file. 
 - setup.sh: Inside the Merlin docker, it sets up the necessary environment paths. Please see "TODO"s and instructions inside the file. **There are many tricky parts for environment setup in this file. Please read the instructions carefully.**
@@ -60,14 +60,12 @@ to enter the docker. Then, **inside the docker**, we run:
 source ./setup.sh
 ```
 
-Then, please run "python --version" to confirm that the default python has been changed to python 2.
+Then, please run "python --version" to confirm that the default python has been changed to python 2. Then, run the folloiwng commands. Make sure to use "python3 main.py", because setup.sh already sets the default "python" to be python 2.
 
 ```bash
 cd src
 python3 main.py --benchmark 3mm --folder ../data/pack1
 ```
-
-Make sure to use "python3" in this command, because setup.sh already sets "python" to be "python2".
 
 
 Troubleshooting

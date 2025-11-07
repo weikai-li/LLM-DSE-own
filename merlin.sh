@@ -1,11 +1,13 @@
 #!/bin/bash
 
-# TODO: Please download HLS version 2024.2, then set up the following environment variables based on your own paths
+# TODO: Please download HLS version 2025.1, then set up the following environment variables based on your own paths
 xilinx_path=/opt/xilinx
 tools_path=/opt/xilinx/tools
-XILINX_VITIS=/opt/xilinx/tools/Vitis_HLS/2024.2
+# XILINX_VITIS=/opt/xilinx/tools/Vitis_HLS/2024.2
+XILINX_VITIS=/opt/xilinx/tools/2025.1/Vitis
 XILINX_XRT=/opt/xilinx/xrt
-XILINX_VIVADO=/opt/xilinx/tools/Vivado/2024.2
+# XILINX_VIVADO=/opt/xilinx/tools/Vivado/2024.2
+XILINX_VIVADO=/opt/xilinx/tools/2025.1/Vivado
 
 ########################
 
