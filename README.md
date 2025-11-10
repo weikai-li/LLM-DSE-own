@@ -43,6 +43,8 @@ python main.py --benchmark 3mm --folder ../data/pack1
 
 **A detailed explanation of environment setup**
 
+详细的中文指导请参考SETUP_FOR_NEW_USER.md
+
 Running HLS evaluation requires two tools: Merlin and Vitis HLS. For this project, please download Vitis HLS version 2025.1. After installing Merlin and Vitis HLS, the following two files can help you setup the environment at every time you run. Please see the "TODO"s in these two files, which mark the places you need to modify to your own paths and commands.
 
 - merlin.sh: It starts the Merlin Docker image. Please see "TODO"s and instructions inside the file. 
